@@ -1,19 +1,22 @@
 // src/pages/Services.jsx
-import InnerBanner from "../components/InnerBanner";
-import ServiceForm from "../components/ServiceForm";
+import InnerBanner from '../components/InnerBanner';
+import ServiceForm from '../components/ServiceForm';
 import { Helmet } from 'react-helmet-async';
 function Business_startup_and_incorporation() {
   return (
     <main>
       <Helmet>
-      		<title>Business Incorporation Services | Cloud Tax Solutions</title>
-      		<meta name="description" content="Start your business with confidence. Cloud Tax Solutions helps Canadian entrepreneurs with incorporation, structuring, and startup financial planning." />
-    	</Helmet>
+        <title>Business Incorporation Services | Cloud Tax Solutions</title>
+        <meta
+          name="description"
+          content="Start your business with confidence. Cloud Tax Solutions helps Canadian entrepreneurs with incorporation, structuring, and startup financial planning."
+        />
+      </Helmet>
       {/* Breadcrumb Section */}
       <InnerBanner
-          title="Business Startup And Incorporation"
-          image="images/BusinessStartup/Image1.0.jpg"
-          description="We’d love to hear from you. Get in touch with us today!"
+        title="Business Startup And Incorporation"
+        image="images/BusinessStartup/Image1.0.jpg"
+        description="We’d love to hear from you. Get in touch with us today!"
       />
       {/* section 1 */}
       <section className="service-section">
@@ -31,7 +34,10 @@ function Business_startup_and_incorporation() {
               <div className="iq_wrapper_column">
                 <h2 className="font-weight-bold">A Strong Start for a Successful Future</h2>
                 <p>
-                    A successful business journey begins with the right foundation. At Rajesh Kumar Sharma CPA Professional Corporation, we specialize in guiding entrepreneurs and new business owners through every stage of startup and incorporation — ensuring you make confident decisions that set your business up for long-term success.
+                  A successful business journey begins with the right foundation. At Rajesh Kumar
+                  Sharma CPA Professional Corporation, we specialize in guiding entrepreneurs and
+                  new business owners through every stage of startup and incorporation — ensuring
+                  you make confident decisions that set your business up for long-term success.
                 </p>
               </div>
             </div>
@@ -53,10 +59,13 @@ function Business_startup_and_incorporation() {
               <div className="ml-3 mt-3">
                 <h2 className="font-weight-bold">Tailored Business Structuring</h2>
                 <p className="mt-3">
-                    Every business is unique. We help you choose the right structure — sole proprietorship, partnership, or corporation — based on your business type, income level, and risk exposure.
+                  Every business is unique. We help you choose the right structure — sole
+                  proprietorship, partnership, or corporation — based on your business type, income
+                  level, and risk exposure.
                 </p>
                 <p>
-                    Our tailored approach ensures your business structure supports growth, optimizes taxes, and protects your personal and professional interests.
+                  Our tailored approach ensures your business structure supports growth, optimizes
+                  taxes, and protects your personal and professional interests.
                 </p>
               </div>
             </div>
@@ -81,10 +90,13 @@ function Business_startup_and_incorporation() {
               <div className="iq_wrapper_column">
                 <h2 className="font-weight-bold">Incorporation and Legal Guidance</h2>
                 <p>
-                    Our experts provide end-to-end assistance in the business incorporation process, offering insights into legal requirements, compliance obligations, and tax implications.
+                  Our experts provide end-to-end assistance in the business incorporation process,
+                  offering insights into legal requirements, compliance obligations, and tax
+                  implications.
                 </p>
                 <p>
-                    We help you establish your business with the right financial and operational framework to ensure smooth incorporation and sustainable success.
+                  We help you establish your business with the right financial and operational
+                  framework to ensure smooth incorporation and sustainable success.
                 </p>
               </div>
             </div>
@@ -106,10 +118,13 @@ function Business_startup_and_incorporation() {
               <div className="ml-3 mt-3">
                 <h2 className="font-weight-bold">Strategic Financial Planning for Startups</h2>
                 <p className="mt-3">
-                    From initial setup to ongoing compliance, we assist startups in building sound financial systems that support scalability and long-term profitability.
+                  From initial setup to ongoing compliance, we assist startups in building sound
+                  financial systems that support scalability and long-term profitability.
                 </p>
                 <p>
-                    Our guidance covers everything from bookkeeping setup to budgeting and tax planning — so you can focus on growing your business while we handle the financial groundwork.
+                  Our guidance covers everything from bookkeeping setup to budgeting and tax
+                  planning — so you can focus on growing your business while we handle the financial
+                  groundwork.
                 </p>
               </div>
             </div>
@@ -133,11 +148,11 @@ function Business_startup_and_incorporation() {
             <div className="col-lg-6 col-md-6 text-left align-self-center">
               <div className="iq_wrapper_column">
                 <h2 className="font-weight-bold">Partner with Us</h2>
+                <p>Start strong, stay compliant, and grow with confidence.</p>
                 <p>
-                    Start strong, stay compliant, and grow with confidence.
-                </p>
-                <p>
-                    Contact Rajesh Kumar Sharma CPA Professional Corporation to learn how our accounting and advisory services can help you with business startup and incorporation.
+                  Contact Rajesh Kumar Sharma CPA Professional Corporation to learn how our
+                  accounting and advisory services can help you with business startup and
+                  incorporation.
                 </p>
               </div>
             </div>

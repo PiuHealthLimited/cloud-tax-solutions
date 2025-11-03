@@ -1,6 +1,6 @@
 // src/components/Breadcrumb.jsx
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function InnerBanner({ title, image, description }) {
   return (
@@ -31,11 +31,7 @@ function InnerBanner({ title, image, description }) {
           {/* Optional image */}
           {image && (
             <div className="col-lg-6 col-md-6 wow fadeInRight">
-              <img
-                src={image}
-                className="img-fluid iq-pr-50"
-                alt={title}
-              />
+              <img src={image} className="img-fluid iq-pr-50" alt={title} />
             </div>
           )}
         </div>

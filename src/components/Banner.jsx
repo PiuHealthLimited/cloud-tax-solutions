@@ -10,18 +10,27 @@ function Banner() {
               <div className="slide-in-text">
                 <div className="homeDegreeImage">
                   <div className="degreeLogoDiv col-lg-4 col-md-6 col-sm-12">
-                  {/*<img src="./images/CPALogoHomePage.png" width="100%" alt="DegreeImage" className="degreeLogo mb-3" /></div>*/}
-                  <img src="./images/HomePage/Image1.7.png" width="100%" alt="DegreeImage" className="degreeLogo mb-3" /></div>
+                    {/*<img src="./images/CPALogoHomePage.png" width="100%" alt="DegreeImage" className="degreeLogo mb-3" /></div>*/}
+                    <img
+                      src="./images/HomePage/Image1.7.png"
+                      width="100%"
+                      alt="DegreeImage"
+                      className="degreeLogo mb-3"
+                    />
+                  </div>
                   <div className="degreeTextDiv col-lg-8 col-md-6 col-sm-12">
-                <h2 className="homeHeroHeading main-color mb-3">
-                  Rajesh Kumar Sharma CPA Professional Corporation
-                </h2></div>
+                    <h2 className="homeHeroHeading main-color mb-3">
+                      Rajesh Kumar Sharma CPA Professional Corporation
+                    </h2>
+                  </div>
                 </div>
-                <h4 className="font-weight-bold mb-3">
-                  Simplifying Taxes. Empowering Businesses.
-                </h4>
+                <h4 className="font-weight-bold mb-3">Simplifying Taxes. Empowering Businesses.</h4>
                 <div className="homeSubheaderText">
-                <h5>Rajesh Kumar Sharma CPA Professional Corporation provides expert tax filing, bookkeeping, and advisory services tailored for individuals and small businesses across Canada.</h5>
+                  <h5>
+                    Rajesh Kumar Sharma CPA Professional Corporation provides expert tax filing,
+                    bookkeeping, and advisory services tailored for individuals and small businesses
+                    across Canada.
+                  </h5>
                 </div>
               </div>
               <br />
@@ -31,7 +40,6 @@ function Banner() {
                 </a>
               </div>
             </div>
-
           </div>
 
           {/* Right Image */}

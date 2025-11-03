@@ -1,37 +1,41 @@
-import React from "react";
-import Banner from "../components/Banner";
+import React from 'react';
+import Banner from '../components/Banner';
 import { Helmet } from 'react-helmet-async';
 function Home() {
-
   const services = [
-    { name: "Accounting and Bookkeeping", link: "Accounts_book_keeping" },
-    { name: "Payroll Services", link: "Payroll_services" },
-    { name: "Corporate Tax", link: "Corporate_tax" },
-    { name: "Individual Tax", link: "Individual_tax" },
-    { name: "Estate and Tax Planning", link: "Estate_and_tax_planning" },
-    { name: "Business Advisory", link: "Business_advisory" },
-    { name: "Virtual CFO Services", link: "Virtual_CFO_services" },
-    { name: "Restaurant | Franchise", link: "Restaurant_franchise_accounting" },
-    { name: "HST Rebate", link: "HST_rebate" },
-    { name: "SR&ED Consulting", link: "SRED_consulting" },
-    { name: "Small Business Loans", link: "Small_business_loans" },
-    { name: "Business Incorporation", link: "Business_startup_and_incorporation" },
-    { name: "CRA Audits, Appeals & Notice of Objections", link: "CRA_audits" },
-    { name: "Sale and Purchase of Business", link: "Sale_and_purchase_of_business" }
+    { name: 'Accounting and Bookkeeping', link: 'Accounts_book_keeping' },
+    { name: 'Payroll Services', link: 'Payroll_services' },
+    { name: 'Corporate Tax', link: 'Corporate_tax' },
+    { name: 'Individual Tax', link: 'Individual_tax' },
+    { name: 'Estate and Tax Planning', link: 'Estate_and_tax_planning' },
+    { name: 'Business Advisory', link: 'Business_advisory' },
+    { name: 'Virtual CFO Services', link: 'Virtual_CFO_services' },
+    { name: 'Restaurant | Franchise', link: 'Restaurant_franchise_accounting' },
+    { name: 'HST Rebate', link: 'HST_rebate' },
+    { name: 'SR&ED Consulting', link: 'SRED_consulting' },
+    { name: 'Small Business Loans', link: 'Small_business_loans' },
+    { name: 'Business Incorporation', link: 'Business_startup_and_incorporation' },
+    { name: 'CRA Audits, Appeals & Notice of Objections', link: 'CRA_audits' },
+    { name: 'Sale and Purchase of Business', link: 'Sale_and_purchase_of_business' },
   ];
 
   return (
     <>
-    <Helmet>
-      {/* <title>Home | Rajesh Kumar Sharma CPA</title> */}
-      <title>Cloud Tax Solutions | Expert Tax & Accounting in Canada</title>
-      <meta name="description" content="Simplify taxes and grow your business with Cloud Tax Solutions. Trusted experts in tax filing, bookkeeping, and advisory services across Canada." />
-    </Helmet>
-    <Banner />        
+      <Helmet>
+        {/* <title>Home | Rajesh Kumar Sharma CPA</title> */}
+        <title>Cloud Tax Solutions | Expert Tax & Accounting in Canada</title>
+        <meta
+          name="description"
+          content="Simplify taxes and grow your business with Cloud Tax Solutions. Trusted experts in tax filing, bookkeeping, and advisory services across Canada."
+        />
+      </Helmet>
+      <Banner />
       {/* MAIN CONTENT */}
       <div className="main-content">
         {/*===================== Our Services Grid HTML(Home Page) =====================*/}
-        <section className="uneven-grid-section"> {/* Removed inline CSS */}
+        <section className="uneven-grid-section">
+          {' '}
+          {/* Removed inline CSS */}
           <div className="container">
             <div className="OurServicesHeader">
               <h2 className="section-header">Our Services</h2>
@@ -51,11 +55,11 @@ function Home() {
                       ${isLast ? 'place-end' : ''}           /* ✅ Apply class to last item */
                     `}
                   >
-                  <h4>
+                    <h4>
                       <a href={service.link} className="grid-link">
                         {service.name}
                       </a>
-                  </h4>
+                    </h4>
                   </div>
                 );
               })}
@@ -69,10 +73,7 @@ function Home() {
           <div className="container">
             <div className="row">
               <div className="col-lg-4 col-md-4">
-                <div
-                  className="future-services text-center wow slideInUp"
-                  data-wow-duration="0.5s"
-                >
+                <div className="future-services text-center wow slideInUp" data-wow-duration="0.5s">
                   <div className="future-img">
                     <img
                       /*src="images/feature/01.png"*/
@@ -83,15 +84,13 @@ function Home() {
                   </div>
                   <h4 className="mb-3">Reliable Support</h4>
                   <p className="mb-0">
-                    From bookkeeping to CRA audits, we guide you through every step with precision and personal care.
+                    From bookkeeping to CRA audits, we guide you through every step with precision
+                    and personal care.
                   </p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4">
-                <div
-                  className="future-services text-center wow slideInUp"
-                  data-wow-duration="1s"
-                >
+                <div className="future-services text-center wow slideInUp" data-wow-duration="1s">
                   <div className="future-img">
                     <img
                       /*src="images/feature/02.png"*/
@@ -102,15 +101,13 @@ function Home() {
                   </div>
                   <h4 className="mb-3">Personalized Solutions</h4>
                   <p className="mb-0">
-                    Custom tax and accounting strategies designed to save you time, money, and stress.
+                    Custom tax and accounting strategies designed to save you time, money, and
+                    stress.
                   </p>
                 </div>
               </div>
               <div className="col-lg-4 col-md-4">
-                <div
-                  className="future-services text-center wow slideInUp"
-                  data-wow-duration="1.5s"
-                >
+                <div className="future-services text-center wow slideInUp" data-wow-duration="1.5s">
                   <div className="future-img">
                     <img
                       /*src="images/feature/03.png"*/
@@ -121,7 +118,8 @@ function Home() {
                   </div>
                   <h4 className="mb-3">Smart Business Insights</h4>
                   <p className="mb-0">
-                    Financial clarity for better decisions — from payroll management to advisory services
+                    Financial clarity for better decisions — from payroll management to advisory
+                    services
                   </p>
                 </div>
               </div>
@@ -136,11 +134,7 @@ function Home() {
             <div className="row">
               <div className="col-md-6">
                 <div className="fully-dedicated wow slideInLeft">
-                  <img
-                    src="images/feature/04.png"
-                    className="img-fluid"
-                    alt=""
-                  />
+                  <img src="images/feature/04.png" className="img-fluid" alt="" />
                 </div>
               </div>
               <div className="col-md-6 text-left align-self-center">
@@ -148,7 +142,9 @@ function Home() {
                   <h6>Say Hello to the Future of Accounting</h6>
                   <h2 className="font-weight-bold">Modern Accounting Made Simple</h2>
                   <p className="mt-3">
-                    Rajesh Kumar Sharma CPA Professional Corporation combines cloud-based tools with expert guidance to make your financial management faster, smarter, and stress-free.
+                    Rajesh Kumar Sharma CPA Professional Corporation combines cloud-based tools with
+                    expert guidance to make your financial management faster, smarter, and
+                    stress-free.
                   </p>
                   <div className="row row-text">
                     <div className="col-md-6">
@@ -169,7 +165,7 @@ function Home() {
                     </div>
                   </div>
                   <a className="button mt-3" href="#">
-                     Learn More
+                    Learn More
                   </a>
                 </div>
               </div>
@@ -241,7 +237,9 @@ function Home() {
                     </div>
                     <div className="col-md-6">
                       <h4>Corporate & Personal Tax</h4>
-                      <p>Accurate filing and maximized deductions for businesses and individuals.</p>
+                      <p>
+                        Accurate filing and maximized deductions for businesses and individuals.
+                      </p>
                     </div>
                     <div className="col-md-6">
                       <h4>Payroll Services</h4>
@@ -272,7 +270,8 @@ function Home() {
                   <h4 className="title font-  weight-bold">Why Choose Us</h4>
                   <h2 className="title font-  weight-bold">Trusted by Businesses Across Canada</h2>
                   <p className="sub-title">
-                    Expertise, transparency, and local knowledge — why 600+ clients rely on Rajesh Kumar Sharma CPA Professional Corporation.
+                    Expertise, transparency, and local knowledge — why 600+ clients rely on Rajesh
+                    Kumar Sharma CPA Professional Corporation.
                   </p>
                 </div>
               </div>
@@ -305,12 +304,14 @@ function Home() {
                       </h4>
                       */}
                       <p className="mb-0">
-                        {[
-                          "Certified accountants with 15+ years of experience",
-                          "Tailored solutions for individuals and SMEs",
-                          "Full compliance with Canadian tax laws",
-                          "Serving cities across Canada",
-                        ][i]}
+                        {
+                          [
+                            'Certified accountants with 15+ years of experience',
+                            'Tailored solutions for individuals and SMEs',
+                            'Full compliance with Canadian tax laws',
+                            'Serving cities across Canada',
+                          ][i]
+                        }
                       </p>
                     </div>
                   </div>
@@ -318,9 +319,9 @@ function Home() {
               ))}
             </div>
             <div className="whyChooseButton">
-            <a className="button mt-3" href="#">
-              Schedule a Free Consultation
-            </a>
+              <a className="button mt-3" href="#">
+                Schedule a Free Consultation
+              </a>
             </div>
           </div>
         </section>

@@ -1,20 +1,20 @@
 // src/pages/Contact.jsx
-import React, { useState } from "react";
-import InnerBanner from "../components/InnerBanner";
+import React, { useState } from 'react';
+import InnerBanner from '../components/InnerBanner';
 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     subject: '',
-    message: ''
+    message: '',
   });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
-    setFormData(prevData => ({
+    setFormData((prevData) => ({
       ...prevData,
-      [name]: value
+      [name]: value,
     }));
   };
 
@@ -62,7 +62,9 @@ const ContactForm = () => {
           placeholder="Message"
           required
         />
-        <button type="submit" className="send-btn">SEND MESSAGE</button>
+        <button type="submit" className="send-btn">
+          SEND MESSAGE
+        </button>
       </form>
     </div>
   );
@@ -72,11 +74,7 @@ const Contact = () => {
   return (
     <main>
       {/* Breadcrumb Section */}
-      <InnerBanner
-        title="Contact Us"
-        image="images/about/10.png"
-        description=""
-      />
+      <InnerBanner title="Contact Us" image="images/about/10.png" description="" />
 
       {/* Contact Form and Info Section */}
       <section>
@@ -92,7 +90,8 @@ const Contact = () => {
             <div className="contact-detail">
               <img src="/images/phone_icon.svg" alt="Phone" className="contact-icon" />
               <div>
-                <strong>Call Us</strong><br />
+                <strong>Call Us</strong>
+                <br />
                 416.708.5881
               </div>
             </div>
@@ -101,7 +100,8 @@ const Contact = () => {
             <div className="contact-detail">
               <img src="/images/email_icon.svg" alt="Email" className="contact-icon" />
               <div>
-                <strong>Email Us</strong><br />
+                <strong>Email Us</strong>
+                <br />
                 Rajesh.sharmacpa@cloudtaxsolutions.com
               </div>
             </div>
@@ -110,8 +110,10 @@ const Contact = () => {
             <div className="contact-detail">
               <img src="/images/location_icon.svg" alt="Address" className="contact-icon" />
               <div>
-                <strong>Office Address</strong><br />
-                111 Ballantyne Boulevard, Vaughan Ontario, Canada<br />
+                <strong>Office Address</strong>
+                <br />
+                111 Ballantyne Boulevard, Vaughan Ontario, Canada
+                <br />
                 L3L 0E8
               </div>
             </div>

@@ -1,20 +1,23 @@
 // src/pages/Services.jsx
-import InnerBanner from "../components/InnerBanner";
-import ServiceForm from "../components/ServiceForm";
+import InnerBanner from '../components/InnerBanner';
+import ServiceForm from '../components/ServiceForm';
 import { Helmet } from 'react-helmet-async';
 function Individual_tax() {
   return (
     <main>
       <Helmet>
-      		<title>Personal Tax Services in Canada | Cloud Tax Solutions</title>
-      		<meta name="description" content="Accurate and stress-free personal tax filing in Canada. Cloud Tax Solutions handles T1 returns, self-employed taxes, and CRA compliance with expert care." />
-    	</Helmet>
-        {/* Breadcrumb Section */}
-        <InnerBanner
-            title="Individual Tax"
-            image="images/IndividualTax/Image1.0.png"
-            description="We’d love to hear from you. Get in touch with us today!"
+        <title>Personal Tax Services in Canada | Cloud Tax Solutions</title>
+        <meta
+          name="description"
+          content="Accurate and stress-free personal tax filing in Canada. Cloud Tax Solutions handles T1 returns, self-employed taxes, and CRA compliance with expert care."
         />
+      </Helmet>
+      {/* Breadcrumb Section */}
+      <InnerBanner
+        title="Individual Tax"
+        image="images/IndividualTax/Image1.0.png"
+        description="We’d love to hear from you. Get in touch with us today!"
+      />
 
       {/* section 1 */}
       <section className="service-section">
@@ -30,9 +33,15 @@ function Individual_tax() {
             </div>
             <div className="col-lg-6 col-md-6 text-left align-self-center">
               <div className="iq_wrapper_column">
-                <h2 className="font-weight-bold">Comprehensive Personal Tax Solutions for Every Situation</h2>
+                <h2 className="font-weight-bold">
+                  Comprehensive Personal Tax Solutions for Every Situation
+                </h2>
                 <p>
-                  At Rajesh Kumar Sharma CPA Professional Corporation, we specialize in personal tax services that handle everything from simple to highly complex tax situations. Whether you’re an individual taxpayer, a small business owner seeking personal tax guidance, or someone with unique income sources, our team is dedicated to ensuring your tax obligations are met with accuracy and professionalism.
+                  At Rajesh Kumar Sharma CPA Professional Corporation, we specialize in personal tax
+                  services that handle everything from simple to highly complex tax situations.
+                  Whether you’re an individual taxpayer, a small business owner seeking personal tax
+                  guidance, or someone with unique income sources, our team is dedicated to ensuring
+                  your tax obligations are met with accuracy and professionalism.
                 </p>
               </div>
             </div>
@@ -54,7 +63,10 @@ function Individual_tax() {
               <div className="ml-3 mt-3">
                 <h2 className="font-weight-bold">Tailored Tax Support for Individuals</h2>
                 <p className="mt-3">
-                    Navigating personal tax requirements can be challenging, especially when dealing with multiple income sources, investments, or special circumstances. Our experts provide comprehensive support, helping you maximize deductions, ensure compliance, and minimize stress.
+                  Navigating personal tax requirements can be challenging, especially when dealing
+                  with multiple income sources, investments, or special circumstances. Our experts
+                  provide comprehensive support, helping you maximize deductions, ensure compliance,
+                  and minimize stress.
                 </p>
               </div>
             </div>
@@ -82,19 +94,22 @@ function Individual_tax() {
                   <li className="mb-2 d-flex">
                     <span className="me-2">•</span>
                     <span>
-                      <strong>Individual income tax and benefits return (T1)</strong> — for individuals and couples with employment income
+                      <strong>Individual income tax and benefits return (T1)</strong> — for
+                      individuals and couples with employment income
                     </span>
                   </li>
                   <li className="mb-2 d-flex">
                     <span className="me-2">•</span>
                     <span>
-                      <strong>Tax preparation for self-employed individuals</strong> (unincorporated businesses)
+                      <strong>Tax preparation for self-employed individuals</strong> (unincorporated
+                      businesses)
                     </span>
                   </li>
                   <li className="mb-2 d-flex">
                     <span className="me-2">•</span>
                     <span>
-                      <strong>Personal tax services</strong> — for individuals with investment income, rental income, or foreign income
+                      <strong>Personal tax services</strong> — for individuals with investment
+                      income, rental income, or foreign income
                     </span>
                   </li>
                   <li className="mb-2 d-flex">
@@ -106,7 +121,9 @@ function Individual_tax() {
                   <li className="mb-2 d-flex">
                     <span className="me-2">•</span>
                     <span>
-                      <strong>Tax services for new immigrants to Canada or leavers (emigrants)</strong>
+                      <strong>
+                        Tax services for new immigrants to Canada or leavers (emigrants)
+                      </strong>
                     </span>
                   </li>
                   <li className="mb-2 d-flex">
@@ -124,13 +141,16 @@ function Individual_tax() {
                   <li className="mb-2 d-flex">
                     <span className="me-2">•</span>
                     <span>
-                      <strong>Real estate transactions and rental property tax considerations.</strong>
+                      <strong>
+                        Real estate transactions and rental property tax considerations.
+                      </strong>
                     </span>
                   </li>
                   <li className="mb-2 d-flex">
                     <span className="me-2">•</span>
                     <span>
-                      <strong>Back filing of personal income taxes</strong> — handling multiple years of overdue filings
+                      <strong>Back filing of personal income taxes</strong> — handling multiple
+                      years of overdue filings
                     </span>
                   </li>
                   <li className="mb-2 d-flex">
@@ -160,7 +180,11 @@ function Individual_tax() {
               <div className="ml-3 mt-3">
                 <h2 className="font-weight-bold">Focus on Peace of Mind</h2>
                 <p className="mt-3">
-                    By entrusting your personal tax needs to Rajesh Kumar Sharma CPA Professional Corporation, you gain a partner who handles the complexity for you — from preparation to filing and appeals. Our team ensures accuracy, timeliness, and compliance, so you can focus on your life and business while we manage the intricacies of your tax obligations.
+                  By entrusting your personal tax needs to Rajesh Kumar Sharma CPA Professional
+                  Corporation, you gain a partner who handles the complexity for you — from
+                  preparation to filing and appeals. Our team ensures accuracy, timeliness, and
+                  compliance, so you can focus on your life and business while we manage the
+                  intricacies of your tax obligations.
                 </p>
               </div>
             </div>
@@ -185,10 +209,11 @@ function Individual_tax() {
               <div className="iq_wrapper_column">
                 <h2 className="font-weight-bold">Let’s Discuss Your Personal Tax Needs</h2>
                 <p>
-                    We’re eager to discuss how our individual tax services in Toronto can specifically benefit you. 
+                  We’re eager to discuss how our individual tax services in Toronto can specifically
+                  benefit you.
                 </p>
                 <p>
-                    Contact us today to schedule a consultation or discuss your unique tax situation.
+                  Contact us today to schedule a consultation or discuss your unique tax situation.
                 </p>
               </div>
             </div>

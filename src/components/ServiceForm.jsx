@@ -1,14 +1,14 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const ServiceForm = () => {
   const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    city: "",
-    state: "",
-    country: "",
-    comments: "",
+    name: '',
+    email: '',
+    phone: '',
+    city: '',
+    state: '',
+    country: '',
+    comments: '',
   });
 
   const handleChange = (e) => {
@@ -20,7 +20,7 @@ const ServiceForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log("Form submitted:", formData);
+    console.log('Form submitted:', formData);
   };
 
   return (

@@ -2,19 +2,14 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import Sitemap from 'vite-plugin-sitemap';
 
-{/*
-// https://vite.dev/config/
 export default defineConfig({
-  plugins: [react()],
-})
-*/}
-export default defineConfig({
+  base: '/cloud-tax-solutions/',
   plugins: [
     react(),
     Sitemap({
       hostname: 'https://cloudtaxsolutions.com',
       dynamicRoutes: [
-        '/', 
+        '/',
         '/about-us',
         '/contact',
         '/services',
@@ -31,7 +26,7 @@ export default defineConfig({
         '/Small_business_loans',
         '/Business_startup_and_incorporation',
         '/CRA_audits',
-        '/Sale_and_purchase_of_business'
+        '/Sale_and_purchase_of_business',
       ],
     }),
   ],

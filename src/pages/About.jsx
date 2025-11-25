@@ -34,17 +34,19 @@ function About() {
                   </h2>
                 </div>
                 <div className="iq_wrapper_content">
+                  {/*
                   <p>
-                    At Rajesh Kumar Sharma CPA Professional Corporation, we evaluate, craft, and
-                    execute — turning complex financial challenges into clear, actionable
-                    strategies. As a certified accounting and consulting firm, we deliver innovative
-                    tax planning, compliance, and financial solutions to businesses.
+                    At Rajesh Kumar Sharma CPA Professional Corporation, we evaluate, craft, and execute — turning complex financial challenges into clear, actionable strategies. As a certified accounting and consulting firm, we deliver innovative tax planning, compliance, and financial solutions to businesses.
                   </p>
                   <p>
-                    Driven by expertise and efficiency, our team is committed to delivering
-                    cost-effective, tailored results that create lasting value. We measure our
-                    success not by short-term gains, but by the long-term growth and confidence of
-                    our clients.
+                    Driven by expertise and efficiency, our team is committed to delivering cost-effective, tailored results that create lasting value. We measure our success not by short-term gains, but by the long-term growth and confidence of our clients.
+                  </p>
+                  */}
+                  <p>
+                    At <strong>Rajesh Kumar Sharma CPA Professional Corporation</strong>, we provide
+                    trusted accounting, tax, and advisory services that simplify finances and drive
+                    growth. Our goal is to deliver accurate, efficient, and strategic solutions that
+                    help businesses make confident financial decisions and succeed long term.
                   </p>
                 </div>
               </div>
@@ -58,7 +60,8 @@ function About() {
       <section className="founder-section">
         <div className="founder-info">
           <img
-            src="./images/about/main.jpg" // Replace with the actual image path of Rajesh Kumar Sharma
+            src="./images/about/main.jpg"
+            //src="./images/about/main1.jpg"
             alt="Rajesh Kumar Sharma"
             className="founder-img"
           />

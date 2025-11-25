@@ -198,6 +198,37 @@ function Navbar() {
                     </li>
                   </ul>
                 </div>
+                <div class="elementor-icon-box-wrapper">
+                  <div class="elementor-icon-box-icon">
+                    <a
+                      href="tel:+14167085881"
+                      class="elementor-icon"
+                      tabindex="-1"
+                      aria-label="Call Us"
+                    >
+                      <img
+                        alt="Phone"
+                        width="16"
+                        class="info-icon mr-2"
+                        src="/images/phone_icon.svg"
+                      />
+                    </a>
+                  </div>
+                  {/*		<h5 class="elementor-icon-box-title">
+                    <a href="tel:+14167085881">
+                      Call Us</a>
+                  </h5> */}
+                  <div class="elementor-icon-box-icon">
+                    <a
+                      href="tel:+14167085881"
+                      class="elementor-icon"
+                      tabindex="-1"
+                      aria-label="Call Us"
+                    >
+                      416.708.5881
+                    </a>
+                  </div>
+                </div>
               </nav>
             </div>
           </div>

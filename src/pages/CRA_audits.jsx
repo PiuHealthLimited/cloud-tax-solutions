@@ -37,8 +37,8 @@ function CRA_audits() {
                   Receiving a notice from the <strong>Canada Revenue Agency (CRA)</strong> can be
                   intimidating, but you don’t have to navigate it alone. At{' '}
                   <strong>Rajesh Kumar Sharma CPA Professional Corporation</strong>, we provide
-                  expert assistance to ensure that you handle CRA audits, appeals, and objections
-                  with confidence and accuracy.
+                  expert assistance and handle <strong>CRA audits, appeals, and objections</strong>{' '}
+                  on your behalf — ensuring accuracy, confidence, and complete peace of mind.
                 </p>
               </div>
             </div>
